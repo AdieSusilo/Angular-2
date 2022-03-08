@@ -7,11 +7,11 @@ import { disableDebugTools } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  value = ""
-  isDisabled = true
+  value = "";
+  isDisabled = true;
 
   reset(){
-    this.value = ""
+    this.value = "";
   }
 }
 
